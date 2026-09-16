@@ -27,28 +27,31 @@ Proyecto integrador para el módulo **Desarrollo de Aplicaciones JEE con Spring 
 * Git.
 
 ---
+
 ## 🔑 Credenciales del Proyecto
 
 ### 1. Base de Datos H2 Console
 * **URL:** http://localhost:8080/h2-console
-* **Driver Class:** org.h2.Driver
-* **JDBC URL:** jdbc:h2:mem:edumanagerdb
-* **Usuario:** sa
-* **Contraseña:** (dejar vacío, sin contraseña)
+* **Driver Class:** `org.h2.Driver`
+* **JDBC URL:** `jdbc:h2:mem:edumanagerdb`
+* **Usuario:** `sa`
+* **Contraseña:** *(dejar vacío, sin contraseña)*
 
 ### 2. Usuarios Web (Spring Security)
 * **Administrador:**
-  * Usuario: `admin`
-  * Contraseña: `admin123`
-  * Rol: `ROLE_ADMIN`
-  * Permisos: Acceso total (crear cursos, eliminar estudiantes, REST, H2)
+  * **Usuario:** `admin`
+  * **Contraseña:** `admin123`
+  * **Rol:** `ROLE_ADMIN`
+  * **Permisos:** Acceso total (crear cursos, eliminar estudiantes, endpoints REST y consola H2).
 * **Usuario Estándar:**
-  * Usuario: `user`
-  * Contraseña: `user123`
-  * Rol: `ROLE_USER`
-  * Permisos: Consultar cursos/estudiantes y registrar estudiantes
-## 🚀 Instrucciones de Ejecución
+  * **Usuario:** `user`
+  * **Contraseña:** `user123`
+  * **Rol:** `ROLE_USER`
+  * **Permisos:** Consultar cursos/estudiantes y registrar nuevos estudiantes.
 
+---
+
+## 🚀 Instrucciones de Ejecución
 
 1. **Clonar el repositorio:**
    ```bash
