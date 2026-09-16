@@ -1,0 +1,13 @@
+com\alkemy\springedumanager\config\SecurityConfig.class
+com\alkemy\springedumanager\model\Estudiante.class
+com\alkemy\springedumanager\controller\api\CursoRestController.class
+com\alkemy\springedumanager\SpringEduManagerApplication.class
+com\alkemy\springedumanager\service\EstudianteService.class
+com\alkemy\springedumanager\repository\CursoRepository.class
+com\alkemy\springedumanager\controller\CursoWebController.class
+com\alkemy\springedumanager\repository\EstudianteRepository.class
+com\alkemy\springedumanager\service\CursoService.class
+com\alkemy\springedumanager\model\Curso.class
+com\alkemy\springedumanager\controller\api\EstudianteRestController.class
+com\alkemy\springedumanager\controller\EstudianteWebController.class
+com\alkemy\springedumanager\controller\HomeController.class
